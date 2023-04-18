@@ -52,4 +52,9 @@ class MainActivity : AppCompatActivity() {
         Log.i("MYTAG","MainActivity : OnStart")
     }
 
+    override fun onResume() {
+        super.onResume()
+        Log.i("MYTAG","MainActivity : OnResume")
+    }
+
 }
