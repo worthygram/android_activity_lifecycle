@@ -57,4 +57,9 @@ class MainActivity : AppCompatActivity() {
         Log.i("MYTAG","MainActivity : OnResume")
     }
 
+    override fun onPause() {
+        super.onPause()
+        Log.i("MYTAG","MainActivity : onPause")
+    }
+
 }
