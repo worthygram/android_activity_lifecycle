@@ -72,4 +72,9 @@ class MainActivity : AppCompatActivity() {
         Log.i("MYTAG","MainActivity : onDestroy")
     }
 
+    override fun onRestart() {
+        super.onRestart()
+        Log.i("MYTAG","MainActivity : onRestart")
+    }
+
 }
