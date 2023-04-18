@@ -67,4 +67,9 @@ class MainActivity : AppCompatActivity() {
         Log.i("MYTAG","MainActivity : onStop")
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i("MYTAG","MainActivity : onDestroy")
+    }
+
 }
